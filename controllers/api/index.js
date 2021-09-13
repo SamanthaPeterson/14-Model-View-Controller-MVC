@@ -3,6 +3,11 @@
 //routing is defined using methods of the Express app
 const router = require('express').Router();
 
+//nodejs is going to look for a routes.js file in your root path of your site
+//https://stackoverflow.com/questions/34247468/node-error-cannot-find-module-routes
+// routes are usually set up like this
+
+routes = require('./routes')
 const userRoutes = require('./user-routes.js');
 const postRoutes = require('./post-routes.js');
 const commentRoutes = require('./comment-routes.js');
