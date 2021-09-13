@@ -37,4 +37,5 @@ async function newFormHandler(event) {
 
 //https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector Document.querySelector()
 // Document method querySelector() - returns first Element in the doc that matches specified selector or group of - no matches = null is returned.
+//EventListener.handleEvent() = function that is called whenever an event of the specified type occurs. https://developer.mozilla.org/en-US/docs/Web/API/EventListener
 document.querySelector('.new-post-form').addEventListener('submit', newFormHandler);
