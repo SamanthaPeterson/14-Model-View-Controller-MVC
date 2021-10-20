@@ -4,6 +4,8 @@
 //npm i sequelize
 //https://www.npmjs.com/package/sequelize
 const Sequelize = require('sequelize');
+const dotenv = require('dotenv');
+
 require('dotenv').config();
 
 let sequelize;
