@@ -1,5 +1,19 @@
-## Tech Blog
 
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+
+
+  <h1 align="center">MVC Tech Blog</h1>
+
+  <p align="center">
+    NoSQL MongoDB Social network API - Created by Samantha Peterson
+    <br />
+    <a href="https://github.com/SamanthaPeterson/NoSQL-18"><strong>Check it out »</strong></a>
+    <br />
+    <br />
+    
+   
 # Description
 
 This application allows various different users to create an account and post blog posts. Users can also edit and delete their own posts. It also allows them to comment on posts from other users.
@@ -11,24 +25,8 @@ This application allows various different users to create an account and post bl
 
 Deployed link here 
 
-# NoSQL 18
 
 
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-
-
-  <h1 align="center">NoSQL MongoDB Social network API</h1>
-
-  <p align="center">
-    NoSQL MongoDB Social network API - Created by Samantha Peterson
-    <br />
-    <a href="https://github.com/SamanthaPeterson/NoSQL-18"><strong>Check it out »</strong></a>
-    <br />
-    <br />
-    
-   
 ## Brief Summary 
 
 Tech Blog
