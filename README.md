@@ -31,7 +31,7 @@ Deployed link here
    
 ## Brief Summary 
 
-A social Network API b
+Tech Blog
  
 
 ## Screenshot
@@ -40,8 +40,8 @@ A social Network API b
 
 
 
-Click this link to view the project https://github.com/SamanthaPeterson/NoSQL-18
- click here to watch the walk through video https://youtu.be/V4YOchf2pCY
+Click this link to view the project 
+ click here to watch the walk through video 
 
    
   </p>
@@ -88,8 +88,7 @@ Click this link to view the project https://github.com/SamanthaPeterson/NoSQL-18
 * [Insomnia](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [Heroku](https://openweathermap.org/api)
 * [Visual Studio Code](https://code.visualstudio.com/)
-* [MongoDB Atlas](https://getbootstrap.com/)
-* [MongoDB Compass](https://getbootstrap.com/)
+
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -98,13 +97,12 @@ Click this link to view the project https://github.com/SamanthaPeterson/NoSQL-18
 ### Installation
 
 1. Click on the link below or enter it in your browser
-   ```sh
-    https://github.com/SamanthaPeterson/NoSQL-18
+
+   link
     
-    https://youtu.be/V4YOchf2pCY
-   ```
-2. Enter city names in the search bar, and view the current and forecast weather information available
-Step 2dghadfhjadjsdbvserd
+  link
+
+2. Tech Blog
 
 
 
@@ -160,14 +158,14 @@ Email photographer.samantha@live.com
  
 
 
-Project Link: [https://github.com/SamanthaPeterson/Server_Side_API_Weather_Dashboard](https://github.com/SamanthaPeterson/Server_Side_API_Weather_Dashboard)
+Project Link: [https://github.com/SamanthaPeterson/](https://github.com/SamanthaPeterson/)
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* [MongoDB](https://getbootstrap.com/)
+
 * [Javascript](https://sequelize.org/)
 
 Thank you to my TA and classmate for helping me to do some trouble shooting during office hours. 
