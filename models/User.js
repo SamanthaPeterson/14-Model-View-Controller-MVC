@@ -11,7 +11,6 @@ class User extends Model {
         return bcrypt.compareSync(loginPw, this.password);
     }
 }
-
 User.init({
     id: {
         type: DataTypes.INTEGER,
@@ -23,6 +22,14 @@ User.init({
         type: DataTypes.STRING,
         allowNull: false
     },
+    email: {
+        type: DataTypes.STRING,
+        allowNull: false,
+        unique: true,
+        validate: {
+            isEmail: true
+        }
+    },
     password: {
         type: DataTypes.STRING,
         allowNull: false,
@@ -32,10 +39,12 @@ User.init({
     }
 }, {
     hooks: {
+        // set up beforeCreate lifecycle "hook" functionality
         async beforeCreate(newUserData) {
             newUserData.password = await bcrypt.hash(newUserData.password, 10);
             return newUserData;
         },
+
         async beforeUpdate(updatedUserData) {
             updatedUserData.password = await bcrypt.hash(updatedUserData.password, 10);
             return updatedUserData;
@@ -46,7 +55,6 @@ User.init({
     freezeTableName: true,
     underscored: true,
     modelName: 'user'
-})
-
+});
 
 module.exports = User;
