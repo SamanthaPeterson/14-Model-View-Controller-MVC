@@ -4,28 +4,39 @@
 //npm i sequelize
 //https://www.npmjs.com/package/sequelize
 const Sequelize = require('sequelize');
-const dotenv = require('dotenv');
 
 require('dotenv').config();
 
-let sequelize;
+
+// create connection to our db
+const sequelize = process.env.JAWSDB_URL 
+    ? new Sequelize(process.env.JAWSDB_URL) 
+    : new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PW, {
+        host: 'localhost',
+        dialect: 'mysql',
+        port: 3306
+    });
+
+module.exports = sequelize;
+
+
 //https://devcenter.heroku.com/articles/jawsdb
 //"JawsDB is an add-on for providing a fully functional MySQL Database server for use with your Heroku application."
 //npm i dotenv
 //https://www.npmjs.com/package/dotenv
-if (process.env.JAWSDB_URL) {
-    sequelize = new Sequelize(process.env.JAWSDB_URL);
-} else {
-    sequelize = new Sequelize
-    process.env.DB_NAME, 
-    process.env.DB_USER, 
-    process.env.DB_PW, 
-    {
-        host: process.env.DB_HOST,
-        port: process.env.DB_PORT,
-        dialect: 'mysql',
-    };
-}
+// if (process.env.JAWSDB_URL) {
+//     sequelize = new Sequelize(process.env.JAWSDB_URL);
+// } else {
+//     sequelize = new Sequelize
+//     process.env.DB_NAME, 
+//     process.env.DB_USER, 
+//     process.env.DB_PW, 
+//     {
+//         host: process.env.DB_HOST,
+//         port: process.env.DB_PORT,
+//         dialect: 'mysql',
+//     };
+// }
 //https://sequelize.org/v5/manual/getting-started.html#setting-up-a-connection
 //to test the connection 
 // sequelize
@@ -56,4 +67,3 @@ if (process.env.JAWSDB_URL) {
 //     dialect: 'mysql',
 //     port: 3306
 
-module.exports = sequelize;
