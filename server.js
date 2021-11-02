@@ -23,9 +23,6 @@ const sess = {
     })
 };
 
-const helpers = require('./utils/helpers');
-
-
 
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
@@ -39,8 +36,12 @@ app.use(express.urlencoded({
 //path to the routes
 app.use(routes);
 
-sequelize.sync();
-
+sequelize.sync({
+        force: false
+    }).then(() => {
 app.listen(PORT, () => {
     console.log(`App listening on port ${PORT}!`);
-});
+}
+)
+})
+;
