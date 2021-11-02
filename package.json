@@ -1,32 +1,26 @@
 {
-  "name": "tech-blog",
+  "name": "MVC14Homework",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "dependencies": {
-    "bcrypt": "^5.0.0",
-    "connect-session-sequelize": "^7.0.4",
-    "dotenv": "^8.6.0",
-    "express": "^4.17.1",
-    "express-handlebars": "^5.2.0",
-    "express-session": "^1.17.1",
-    "mysql2": "^2.2.5",
-    "sequelize": "^6.6.5"
-  },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "jest",
+    "seeds": "node seeds/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com//tech-blog.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com//tech-blog/issues"
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "connect-session-sequelize": "^6.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.17.0",
+    "handlebars": "^4.7.3",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.5"
   },
-  "homepage": "https://github.com//tech-blog#readme"
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
 }
