@@ -5,6 +5,7 @@ const session = require('express-session');
 const exphbs = require('express-handlebars');
 const routes = require('./controllers/');
 const helpers = require('./utils/helpers');
+const hbs = require('hbs');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
@@ -24,8 +25,8 @@ const sess = {
 };
 
 
-app.engine('handlebars', hbs.engine);
-app.set('view engine', 'handlebars');
+//app.engine('handlebars', hbs.engine);
+app.set('view engine', 'hbs');
 
 app.use(session(sess));
 app.use(express.static(path.join(__dirname, 'public')));
