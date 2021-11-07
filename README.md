@@ -4,10 +4,10 @@
 <p align="center">
 
 
-  <h1 align="center">MVC Tech Blog</h1>
+  <h1 align="center">14. Model-View-Controller (MVC) Challenge: Tech Blog</h1>
 
   <p align="center">
-    NoSQL MongoDB Social network API - Created by Samantha Peterson
+    14. Model-View-Controller (MVC) Challenge: Tech Blog - Created by Samantha Peterson
     <br />
     <a href="https://github.com/SamanthaPeterson/NoSQL-18"><strong>Check it out »</strong></a>
     <br />
@@ -29,7 +29,7 @@ Deployed link here
 
 ## Brief Summary 
 
-Tech Blog
+14. Model-View-Controller (MVC) Challenge: Tech Blog
  
 
 ## Screenshot
