@@ -1,14 +1,14 @@
 {
-  "name": "14",
+  "name": "14-Model-View-Controller-MVC",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "jest",
-    "seeds": "node seeds/index.js"
+    "main": "server.js"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^6.1.1",
