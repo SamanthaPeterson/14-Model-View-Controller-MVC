@@ -4,11 +4,16 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "jest",
-    "main": "server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamanthaPeterson/14-Model-View-Controller-MVC"
   },
   "author": "",
   "license": "MIT",
+  "homepage": "https://github.com/SamanthaPeterson/14-Model-View-Controller-MVC",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^6.1.1",
@@ -23,8 +28,5 @@
     "mysql2": "^2.1.0",
     "node": "^17.0.1",
     "sequelize": "^6.9.0"
-  },
-  "devDependencies": {
-    "jest": "^27.3.1"
   }
 }
