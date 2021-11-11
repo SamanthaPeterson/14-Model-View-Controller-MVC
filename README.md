@@ -26,6 +26,7 @@ This application allows various different users to create an account and post bl
 
 Deployed link here 
   
+  
   https://mvc14.herokuapp.com/
 
 https://youtu.be/zsJiCvW1qzg
@@ -41,7 +42,7 @@ https://youtu.be/zsJiCvW1qzg
 
 
 
-Click this link to view the project 
+Click this link to view the project https://mvc14.herokuapp.com/
  click here to watch the walk through video 
 
    
